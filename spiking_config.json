@@ -1,0 +1,26 @@
+{
+    "sample_rate": 25600,
+    "signal_length": 2048,
+    "cwt_height": 64,
+    "cwt_width": 64,
+    "cwt_channels": 3,
+    "num_classes": 5,
+    "feature_dim": 64,
+    "batch_size": 32,
+    "num_epochs": 100,
+    "learning_rate": 0.0005,
+    "weight_decay": 0.0001,
+    "patience": 30,
+    "warmup_epochs": 5,
+    "use_augmentation": true,
+    "noise_level": 0.01,
+    "scale_range": [
+        0.9,
+        1.1
+    ],
+    "checkpoint_dir": "checkpoints_fault_spiking",
+    "results_dir": "results_fault_spiking",
+    "logs_dir": "logs_fault_spiking",
+    "visualizations_dir": "visualizations_fault_spiking",
+    "tables_dir": "tables_fault_spiking"
+}
