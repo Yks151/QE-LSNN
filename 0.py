@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
-"""
-融合液态脉冲量子纠缠算法的滚动轴承声振多模态故障诊断系统（终极美观版）
-包含 Figure 1-9，新增 Figure 10（6类故障Saliency Map）和 Figure 11（五个专用指标）
-所有子图字体放大、间距优化，dpi 自适应避免内存溢出
-"""
-
 import os
 import sys
 import gc
@@ -2108,7 +2101,7 @@ def main():
     print(f"找到 {len(all_mat)} 个振动文件，{len(all_wav)} 个声音文件")
 
     if len(all_mat) == 0 or len(all_wav) == 0:
-        print("错误：未找到数据文件，将使用模拟数据演示。")
+        print("错误：未找到数据文件")
         from sklearn.datasets import make_classification
         import tempfile
         temp_dir = tempfile.mkdtemp()
